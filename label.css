@@ -1,0 +1,242 @@
+.--main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.--inner-main {
+    align-items: center;
+    width: 1200px; 
+    padding: 15px; 
+    display: flex; 
+    justify-content: space-between;
+    height: auto;
+}
+
+.--lgm-logo {
+    width: 10%;
+}
+.--lgm-main {
+    width: 50%;
+}
+.--lgm-down {
+    position:absolute;
+    bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.--lgm-prac {
+    width: 70%;
+}
+
+.--prac-term {
+    text-decoration: underline; 
+    text-decoration-style: dotted;
+    cursor: pointer;
+}
+
+.--unside {
+    width: 70%
+}
+
+.--side {
+    margin-left: 1%;
+    padding: 10px;
+    width: 25%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.--ovl-bg {
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    right: 0;
+}
+.--ovl-x {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    color: white;
+    cursor: pointer;
+}
+.--ovl-main {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.--mob {
+    display: none;
+}
+
+.--rev {
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: 90px; 
+    width: 45%; 
+    background-image: url('http://localhost/parla/media/revise.png');
+}
+
+.--len {
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: 90px; 
+    width: 45%; 
+    background-image: url('http://localhost/parla/media/learn.png');
+}
+
+
+.--sec {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    width: 90vw;
+    max-width: 1000px;
+}
+
+.--car {
+    margin-top: 25px;
+}
+
+.--car * {
+    padding-top: 7.5px;
+}
+
+.--car *  p {
+    margin: 0
+}
+
+.--log {
+    margin: 15px auto;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 75%;
+    outline: none;
+    color: black;
+    padding: 10px;
+    background: none !important
+}
+
+.--log::placeholder {
+    color: var(--dark)
+}
+
+.--mdlogo {
+    width: 350px;
+}
+
+.--ind-prompt {
+    transition: 0.25s;
+    text-decoration: none;
+    padding: 20px;
+    color: var(--lite);
+    font-size: 25px;
+    width: 300px;
+    background: BLACK;
+    max-width: 80vw;
+    border: 1px solid rgba(0,0,0,0) !important;
+    animation: ind-prompt 2s infinite;
+    animation-direction: reverse;
+    background-size: 200%;
+    border-radius: 5px;
+}
+.--ind-prompt:hover {
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.--flag {
+    width: 100%;
+    height: 33%;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
+.--fl-ver {
+    height: 100%;
+    width: 33%;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
+.--fl-img {
+    width: 80px;
+    height: 75px;
+    margin: auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.--cl-img {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.--fl-fr-1 {
+    background: #2c3463;
+}
+.--fl-fr-2, .--fl-nl-2, .--fl-rus-1, .--fl-it-2 {
+    background: #f6f6f7;
+}
+.--fl-fr-3 {
+    background: #ED2939;
+}
+
+.--fl-de-1 {
+    background: #454544;
+}
+.--fl-de-2 {
+    background-color: #e74544;
+}
+.--fl-es-1, .--fl-es-3 {
+    background-color: #d14d4d;
+}
+.--fl-es-2 {
+    background: #ffc901;
+}
+.--fl-de-3 {
+    background-color: #FFD700;
+}
+.--fl-nl-1 {
+    background-color: #de4f31;
+}
+.--fl-nl-3 {
+    background-color: #4a60e0;
+}
+.--fl-it-1 {
+    background-color: #25992d;
+}
+.--fl-it-3 {
+    background-color: #d02c34;
+}
+.--fl-rus-2 {
+    background-color: #0037a1;
+}
+.--fl-rus-3 {
+    background-color: #ce2a1d;
+}
+
+.--rv-out {
+    width: 250px; height: 250px; margin: 25px;
+}
+.--rv-inn {
+    height: 250px; width: 250px; transform: rotate(270deg);background-image: url('../media/bl.png'); background-repeat: repeat-y;
+}
+.--rv-inner {
+    height: 250px; width: 250px; transform: rotate(90deg);
+}

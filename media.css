@@ -1,0 +1,119 @@
+.sho {
+    display: none;
+}
+
+@media only screen and (max-width: 850px) {
+    .__rv-2 {display: none !important;}
+}
+
+@media only screen and (max-width: 1000px) {
+    .--lgm-down {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    ._fd-co850 {
+        flex-direction: column !important;
+    }
+    .__w850 {
+        width: 100% !important
+    }
+    .__tal850 {
+        text-align: center !important;
+    }
+    ._cc850 {
+        align-content: center;
+        justify-content: center;
+    }
+    .__mauto850 {
+        margin: auto !important
+    }
+    .sho850 {
+        display: flex
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .___nob {
+        border-radius: 0px !important;
+    }
+    .sho700 {
+        display: block !important
+    }
+    .___mauto {
+        margin: auto;
+    }
+    .___tre {
+        font-size: 40px !important;
+    }
+    .--mdlogo {
+        width: 200px !important;
+    }
+    .__fd-co {flex-direction: column !important;}
+    .___tal {text-align: center;}
+    .__7w {
+        width: 100% !important;
+    }
+    .__w {
+        width: 100% !important;
+    }
+    .__rv-2 {display: flex !important}
+    .__rvmain {flex-direction: column !important;}
+    .--side {
+        display: none !important;
+    }
+    .--unside {
+        width: 100% !important;
+    }
+    .__5w {
+        width: 100% !important;
+    }
+    .med_b {
+        width: 100% !important;
+    }
+    .--lgm-prac {
+        width: 100% !important;
+    }
+    .sho-700 {
+        display:block
+    }
+    .--lgm-logo {
+        width: 20% !important;
+    }
+    .--lgm-txt {
+        width: 75% !important;
+    }
+    .--lgm-main {
+        width: 75% !important
+    }
+    .--car {
+        flex-direction: column;
+        margin-top: 0 !important;
+    }
+    .--car * {
+        width: 100% !important;
+        margin-bottom: 15px;
+    }
+    .content {
+        min-height: 100%;
+        margin: 0 auto -105px;
+    }
+    
+    .footer,
+    .push {
+        height: 90px;
+    }    
+}
+
+@media only screen and (max-width: 600px) {
+    .log * , .reg * {
+        width: 100% !important
+    }
+    .--nav {
+        display: none !important;
+    }
+    .--mob {
+        display: block !important;
+    }
+}
