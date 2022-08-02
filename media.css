@@ -7,12 +7,18 @@
     .m_show-lg {
         display: flex;
     }
+    .m_hide-lg {
+        display: none;
+    }
 }
 
 /* iPads */
 @media only screen and (max-width: 850px) {
     .m_show-md {
         display: flex;
+    }
+    .m_hide-md {
+        display: none;
     }
 }
 
@@ -21,11 +27,17 @@
     .m_show-sm {
         display: flex;
     }
+    .m_hide-sm {
+        display: none;
+    }
 }
 
 /* Smaller phones */
 @media only screen and (max-width: 600px) {
     .m_show-xs {
         display: flex;
+    }
+    .m_hide-xs {
+        display: none;
     }
 }
